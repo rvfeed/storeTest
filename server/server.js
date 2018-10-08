@@ -56,7 +56,8 @@ function authenticate(req, res, next){
 
 
 generalRoutes(routes);
-app.use("/api/v1", authenticate, proutes);
+//app.use("/api/v1", authenticate, proutes);
+app.use("/api/v1", proutes);
 app.use("/static", routes);
 app.listen(config.port, () => {
     console.log("Server is listening to "+config.port);

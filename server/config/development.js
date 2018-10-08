@@ -2,8 +2,8 @@
 
 module.exports = {
   env: 'development',
-  get db(){ return  'mongodb://localhost:27017/test' },
+  get db(){ return  'mongodb://localhost:27018/store' },
   port: process.env.PORT || 9090,
-  database: "test",
+  database: "store",
   secret: "highlysecret"
 };

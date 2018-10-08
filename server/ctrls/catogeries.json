@@ -1,0 +1,166 @@
+[
+    {"_id": "Center", "path":null, "name": "location"},
+    {"_id": "Perimiter", "path":null, "name": "location"},
+  /* 1 */
+{
+    "_id" : "*Seafood*@Permiter@*name:Frozen Shellfish*belongsTo:department"
+}
+
+/* 2 */
+{
+    "_id" : "*Bakery*@Permiter@*name:Bakery Bread*belongsTo:department"
+}
+
+/* 3 */
+{
+    "_id" : "*Seafood*@Permiter@*name:Other Seafood*belongsTo:department"
+}
+
+/* 4 */
+{
+    "_id" : "*GM*@Permiter@*name:Housewares*belongsTo:department"
+}
+
+/* 5 */
+{
+    "_id" : "*DeliÊandÊFoodservice*@Permiter@*name:Service Deli*belongsTo:department"
+}
+
+/* 6 */
+{
+    "_id" : "*Frozen*@Center@*name:Frozen Bake*belongsTo:department"
+}
+
+/* 7 */
+{
+    "_id" : "*Floral*@Permiter@*name:BouquetsÊandÊCut Flowers*belongsTo:department"
+}
+
+/* 8 */
+{
+    "_id" : "*Grocery*@Center@*name:Crackers*belongsTo:department"
+}
+
+/* 9 */
+{
+    "_id" : "*DeliÊandÊFoodservice*@Permiter@*name:Self Service Deli Cold*belongsTo:department"
+}
+
+/* 10 */
+{
+    "_id" : "*GM*@Center@*name:Audio Video*belongsTo:department"
+}
+/* 1 */
+{
+    "_id" : "*Other Seafood*@Permiter@Seafood@*name:Other Seafood*belongsTo:catogery"
+}
+
+/* 2 */
+{
+    "_id" : "*Service Deli*@Permiter@DeliÊandÊFoodservice@*name:Service Deli*belongsTo:catogery"
+}
+
+/* 3 */
+{
+    "_id" : "*Frozen Shellfish*@Permiter@Seafood@*name:Frozen Shellfish*belongsTo:catogery"
+}
+
+/* 4 */
+{
+    "_id" : "*Housewares*@Permiter@GM@*name:Housewares*belongsTo:catogery"
+}
+
+/* 5 */
+{
+    "_id" : "*Bakery Bread*@Permiter@Bakery@*name:Bakery Bread*belongsTo:catogery"
+}
+
+/* 6 */
+{
+    "_id" : "*Frozen Bake*@Center@Frozen@*name:Frozen Bake*belongsTo:catogery"
+}
+
+/* 7 */
+{
+    "_id" : "*Audio Video*@Center@GM@*name:Audio Video*belongsTo:catogery"
+}
+
+/* 8 */
+{
+    "_id" : "*BouquetsÊandÊCut Flowers*@Permiter@Floral@*name:BouquetsÊandÊCut Flowers*belongsTo:catogery"
+}
+
+/* 9 */
+{
+    "_id" : "*Self Service Deli Cold*@Permiter@DeliÊandÊFoodservice@*name:Self Service Deli Cold*belongsTo:catogery"
+}
+
+/* 10 */
+{
+    "_id" : "*Crackers*@Center@Grocery@*name:Crackers*belongsTo:catogery"
+}
+/* 1 */
+{
+    "_id" : "*Frozen Shellfish*@Permiter@Seafood@Frozen Shellfish@*name:Frozen Shellfish*belongsTo:subcatogery"
+}
+
+/* 2 */
+{
+    "_id" : "*All Other Seafood*@Permiter@Seafood@Other Seafood@*name:All Other Seafood*belongsTo:subcatogery"
+}
+
+/* 3 */
+{
+    "_id" : "*Prepared Seafood Entrees*@Permiter@Seafood@Other Seafood@*name:Prepared Seafood Entrees*belongsTo:subcatogery"
+}
+
+/* 4 */
+{
+    "_id" : "*Beeding*@Permiter@GM@Housewares@*name:Beeding*belongsTo:subcatogery"
+}
+
+/* 5 */
+{
+    "_id" : "*AllÊOther*@Permiter@DeliÊandÊFoodservice@Service Deli@*name:AllÊOther*belongsTo:subcatogery"
+}
+
+/* 6 */
+{
+    "_id" : "*Bagels*@Permiter@Bakery@Bakery Bread@*name:Bagels*belongsTo:subcatogery"
+}
+
+/* 7 */
+{
+    "_id" : "*Video DVD*@Center@GM@Audio Video@*name:Video DVD*belongsTo:subcatogery"
+}
+
+/* 8 */
+{
+    "_id" : "*Audio*@Center@GM@Audio Video@*name:Audio*belongsTo:subcatogery"
+}
+
+/* 9 */
+{
+    "_id" : "*Salads*@Permiter@Seafood@Other Seafood@*name:Salads*belongsTo:subcatogery"
+}
+
+/* 10 */
+{
+    "_id" : "*BreadÊorÊDough Products Frozen*@Center@Frozen@Frozen Bake@*name:BreadÊorÊDough Products Frozen*belongsTo:subcatogery"
+}
+
+/* 11 */
+{
+    "_id" : "*BouquetsÊandÊCut Flowers*@Permiter@Floral@BouquetsÊandÊCut Flowers@*name:BouquetsÊandÊCut Flowers*belongsTo:subcatogery"
+}
+
+/* 12 */
+{
+    "_id" : "*Rice Cakes*@Center@Grocery@Crackers@*name:Rice Cakes*belongsTo:subcatogery"
+}
+
+/* 13 */
+{
+    "_id" : "*Beverages*@Permiter@DeliÊandÊFoodservice@Self Service Deli Cold@*name:Beverages*belongsTo:subcatogery"
+}
+]

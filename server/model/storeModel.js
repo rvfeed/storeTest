@@ -1,8 +1,18 @@
 import mongoDb from "../db/connectDb";
 import schema from "../schema/schema"
 import mongodb from 'mongodb';
+/*
+db.getCollection('storeData').aggregate([
 
-class PostModel{
+{$project: {"_id": 0, "LOCATION":1, "DEPARTMENT": 1, "CATEGORY": 1,  "SUBCATEGORY": 1}},
+//{$project: { "_id": "$DEPARTMENT" , 'path': {$concat: ["*", "$DEPARTMENT","*","@", "$LOCATION", "@", "*name:","department"]}, }},
+//{$project: { "_id": "$CATEGORY" , 'path': {$concat: ["*", "$CATEGORY","*","@", "$LOCATION", "@", "$DEPARTMENT", "@", "*name:","category"]}}},
+      {$project: { "_id": "$SUBCATEGORY" , 'path': {$concat: ["*", "$SUBCATEGORY","*",  "@", "$LOCATION", "@", "$DEPARTMENT", "@", "$CATEGORY", "@", "*name:","subcatogery"
+]}}},
+      {$group: {_id: "$path"}},
+])
+*/
+class StoreModel{
     post;
     constructor(){
         this.post = schema.post;       
@@ -16,26 +26,26 @@ class PostModel{
         return  mongoDb.dbo.collection("posts").insert({status: data});
     }
     updatePost(record, post){} 
-    getAllPosts(){      
+    getAllLocations(){
         return new Promise((resolve, reject) => {  
-             mongoDb.dbo.collection("posts")
-                    .find({deleted: { $ne : 1}})
+             mongoDb.dbo.collection("storepath")
+                    .find({path:null}, {_id:0, name: 1, path: 0})
                     .sort({"_id": -1})
-                    .limit(5)
                     .toArray((err, posts) => { 
                         if(err){
                         reject(err);
-                    }              
+                    }    
+
                     resolve(posts);
                 });
         });
     }
-    readPost(id){
+    getDataFromStore(id){
+        console.log(id)
         return new Promise((resolve, reject) => {  
-             mongoDb.dbo.collection("posts")
-                    .find({_id: mongodb.ObjectID(id), deleted: { $ne : 1}})
+             mongoDb.dbo.collection("storeAlterData")
+                    .find({PATH:{$regex:new RegExp(id, "gi")}})
                     .sort({"_id": -1})
-                    .limit(5)
                     .toArray((err, post) => { 
                         if(err){
                         reject(err);
@@ -44,6 +54,7 @@ class PostModel{
                 });
         });
     }
+    
     
     deleteStatus(id){     
           return  mongoDb.dbo.collection("posts").update({_id: mongodb.ObjectID(id)}, {$set: {deleted: 1}})
@@ -64,4 +75,4 @@ class PostModel{
     
 }
 
-export default PostModel;
+export default StoreModel;
