@@ -1,0 +1,272 @@
+[
+    {"_id":"Perimiter_LOCATION","path":null,"name":"Perimiter"},
+    {"_id":"Center_LOCATION","path":null,"name":"Center"},
+{
+    "_id" : "All_Other_Seafood_SUBCATEGORY",
+    "path" : [ 
+        "@Permiter@Seafood@@Other_Seafood@All_Other_Seafood@"
+    ],
+    "name" : "All Other Seafood"
+}
+
+,
+{
+    "_id" : "Frozen_Shellfish_SUBCATEGORY",
+    "path" : [ 
+        "@Permiter@Seafood@@Frozen_Shellfish@Frozen_Shellfish@"
+    ],
+    "name" : "Frozen Shellfish"
+}
+
+,
+{
+    "_id" : "Video_DVD_SUBCATEGORY",
+    "path" : [ 
+        "@Center@GM@@Audio_Video@Video_DVD@"
+    ],
+    "name" : "Video DVD"
+}
+
+,
+{
+    "_id" : "Rice_Cakes_SUBCATEGORY",
+    "path" : [ 
+        "@Center@Grocery@@Crackers@Rice_Cakes@"
+    ],
+    "name" : "Rice Cakes"
+}
+
+,
+{
+    "_id" : "Bagels_SUBCATEGORY",
+    "path" : [ 
+        "@Permiter@Bakery@@Bakery_Bread@Bagels@"
+    ],
+    "name" : "Bagels"
+}
+
+,
+{
+    "_id" : "Audio_SUBCATEGORY",
+    "path" : [ 
+        "@Center@GM@@Audio_Video@Audio@"
+    ],
+    "name" : "Audio"
+}
+
+,
+{
+    "_id" : "Salads_SUBCATEGORY",
+    "path" : [ 
+        "@Permiter@Seafood@@Other_Seafood@Salads@"
+    ],
+    "name" : "Salads"
+}
+
+,
+{
+    "_id" : "Prepared_Seafood_Entrees_SUBCATEGORY",
+    "path" : [ 
+        "@Permiter@Seafood@@Other_Seafood@Prepared_Seafood_Entrees@"
+    ],
+    "name" : "Prepared Seafood Entrees"
+}
+
+,
+{
+    "_id" : "Beeding_SUBCATEGORY",
+    "path" : [ 
+        "@Permiter@GM@@Housewares@Beeding@"
+    ],
+    "name" : "Beeding"
+}
+
+,
+{
+    "_id" : "BouquetsÊandÊCut_Flowers_SUBCATEGORY",
+    "path" : [ 
+        "@Permiter@Floral@@BouquetsÊandÊCut_Flowers@BouquetsÊandÊCut_Flowers@"
+    ],
+    "name" : "BouquetsÊandÊCut Flowers"
+}
+
+,
+{
+    "_id" : "Seafood_DEPARTMENT",
+    "path" : [ 
+        "@Permiter@"
+    ],
+    "name" : "Seafood"
+}
+
+,
+{
+    "_id" : "Grocery_DEPARTMENT",
+    "path" : [ 
+        "@Center@"
+    ],
+    "name" : "Grocery"
+}
+
+,
+{
+    "_id" : "Bakery_DEPARTMENT",
+    "path" : [ 
+        "@Permiter@"
+    ],
+    "name" : "Bakery"
+}
+
+,
+{
+    "_id" : "Frozen_DEPARTMENT",
+    "path" : [ 
+        "@Center@"
+    ],
+    "name" : "Frozen"
+}
+
+,
+{
+    "_id" : "GM_DEPARTMENT",
+    "path" : [ 
+        "@Permiter@", 
+        "@Center@"
+    ],
+    "name" : "GM"
+}
+
+,
+{
+    "_id" : "DeliÊandÊFoodservice_DEPARTMENT",
+    "path" : [ 
+        "@Permiter@"
+    ],
+    "name" : "DeliÊandÊFoodservice"
+}
+
+,
+{
+    "_id" : "BreadÊorÊDough_Products_Frozen_SUBCATEGORY",
+    "path" : [ 
+        "@Center@Frozen@@Frozen_Bake@BreadÊorÊDough_Products_Frozen@"
+    ],
+    "name" : "BreadÊorÊDough Products Frozen"
+}
+
+,
+{
+    "_id" : "Floral_DEPARTMENT",
+    "path" : [ 
+        "@Permiter@"
+    ],
+    "name" : "Floral"
+}
+
+,
+{
+    "_id" : "Housewares_CATEGORY",
+    "path" : [ 
+        "@Permiter@GM@"
+    ],
+    "name" : "Housewares"
+}
+
+,
+{
+    "_id" : "AllÊOther_SUBCATEGORY",
+    "path" : [ 
+        "@Permiter@DeliÊandÊFoodservice@@Service_Deli@AllÊOther@"
+    ],
+    "name" : "AllÊOther"
+}
+
+,
+{
+    "_id" : "Beverages_SUBCATEGORY",
+    "path" : [ 
+        "@Permiter@DeliÊandÊFoodservice@@Self_Service_Deli_Cold@Beverages@"
+    ],
+    "name" : "Beverages"
+}
+
+,
+{
+    "_id" : "Audio_Video_CATEGORY",
+    "path" : [ 
+        "@Center@GM@"
+    ],
+    "name" : "Audio_Video"
+}
+
+,
+{
+    "_id" : "Frozen_Shellfish_CATEGORY",
+    "path" : [ 
+        "@Permiter@Seafood@"
+    ],
+    "name" : "Frozen Shellfish"
+}
+
+,
+{
+    "_id" : "Crackers_CATEGORY",
+    "path" : [ 
+        "@Center@Grocery@"
+    ],
+    "name" : "Crackers"
+}
+
+,
+{
+    "_id" : "Frozen_Bake_CATEGORY",
+    "path" : [ 
+        "@Center@Frozen@"
+    ],
+    "name" : "Frozen Bake"
+}
+
+,
+{
+    "_id" : "Bakery_Bread_CATEGORY",
+    "path" : [ 
+        "@Permiter@Bakery@"
+    ],
+    "name" : "Bakery Bread"
+}
+
+,
+{
+    "_id" : "Self_Service_Deli_Cold_CATEGORY",
+    "path" : [ 
+        "@Permiter@DeliÊandÊFoodservice@"
+    ],
+    "name" : "Self Service Deli Cold"
+}
+
+,
+{
+    "_id" : "Service_Deli_CATEGORY",
+    "path" : [ 
+        "@Permiter@DeliÊandÊFoodservice@"
+    ],
+    "name" : "Service Deli"
+}
+
+,
+{
+    "_id" : "BouquetsÊandÊCut_Flowers_CATEGORY",
+    "path" : [ 
+        "@Permiter@Floral@"
+    ],
+    "name" : "BouquetsÊandÊCut Flowers"
+}
+
+,
+{
+    "_id" : "Other_Seafood_CATEGORY",
+    "path" : [ 
+        "@Permiter@Seafood@"
+    ],
+    "name" : "Other Seafood"
+}]

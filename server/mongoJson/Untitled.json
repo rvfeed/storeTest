@@ -1,0 +1,165 @@
+[
+ 
+{
+ 
+    "slug" : "Perimiter",
+    "path" : null,
+    "name" : "Perimiter",
+    "belongsTo" : "LOCATION"
+}
+
+,
+{
+    
+    "slug" : "Center",
+    "path" : null,
+    "name" : "Center",
+    "belongsTo" : "LOCATION"
+},
+{
+    "slug" : "Frozen_Shellfish", "path": ["@Permiter@Seafood@Frozen_Shellfish@"], "name": "Frozen Shellfish", "belongsTo": "SUBCATEGORY"
+}
+
+,
+{
+    "slug" : "Beeding", "path": ["@Permiter@GM@Housewares@"], "name": "Beeding", "belongsTo": "SUBCATEGORY"
+}
+
+,
+{
+    "slug" : "Prepared_Seafood_Entrees", "path": ["@Permiter@Seafood@Other_Seafood@"], "name": "Prepared Seafood Entrees", "belongsTo": "SUBCATEGORY"
+}
+
+,
+{
+    "slug" : "All_Other_Seafood", "path": ["@Permiter@Seafood@Other_Seafood@"], "name": "All Other Seafood", "belongsTo": "SUBCATEGORY"
+}
+
+,
+{
+    "slug" : "Video_DVD", "path": ["@Center@GM@Audio_Video@"], "name": "Video DVD", "belongsTo": "SUBCATEGORY"
+}
+
+,
+{
+    "slug" : "Rice_Cakes", "path": ["@Center@Grocery@Crackers@"], "name": "Rice Cakes", "belongsTo": "SUBCATEGORY"
+}
+
+,
+{
+    "slug" : "Bagels", "path": ["@Permiter@Bakery@Bakery_Bread@"], "name": "Bagels", "belongsTo": "SUBCATEGORY"
+}
+
+,
+{
+    "slug" : "Audio", "path": ["@Center@GM@Audio_Video@"], "name": "Audio", "belongsTo": "SUBCATEGORY"
+}
+
+,
+{
+    "slug" : "Salads", "path": ["@Permiter@Seafood@Other_Seafood@"], "name": "Salads", "belongsTo": "SUBCATEGORY"
+}
+
+,
+{
+    "slug" : "Beverages", "path": ["@Permiter@DeliÊandÊFoodservice@Self_Service_Deli_Cold@"], "name": "Beverages", "belongsTo": "SUBCATEGORY"
+}
+
+,
+{
+    "slug" : "AllÊOther", "path": ["@Permiter@DeliÊandÊFoodservice@Service_Deli@"], "name": "AllÊOther", "belongsTo": "SUBCATEGORY"
+}
+
+,
+{
+    "slug" : "BreadÊorÊDough_Products_Frozen", "path": ["@Center@Frozen@Frozen_Bake@"], "name": "BreadÊorÊDough Products Frozen", "belongsTo": "SUBCATEGORY"
+}
+
+,
+{
+    "slug" : "BouquetsÊandÊCut_Flowers", "path": ["@Permiter@Floral@BouquetsÊandÊCut_Flowers@"], "name": "BouquetsÊandÊCut Flowers", "belongsTo": "SUBCATEGORY"
+}
+,
+{
+    "slug" : "Seafood", "path": ["@Permiter@"], "name": "Seafood", "belongsTo": "DEPARTMENT"
+}
+
+,
+{
+    "slug" : "Grocery", "path": ["@Center@"], "name": "Grocery", "belongsTo": "DEPARTMENT"
+}
+
+,
+{
+    "slug" : "Bakery", "path": ["@Permiter@"], "name": "Bakery", "belongsTo": "DEPARTMENT"
+}
+
+,
+{
+    "slug" : "Frozen", "path": ["@Center@"], "name": "Frozen", "belongsTo": "DEPARTMENT"
+}
+
+,
+{
+    "slug" : "GM", "path": ["@Permiter@", "@Center@"], "name": "GM", "belongsTo": "DEPARTMENT"
+}
+
+,
+{
+    "slug" : "DeliÊandÊFoodservice", "path": ["@Permiter@"], "name": "DeliÊandÊFoodservice", "belongsTo": "DEPARTMENT"
+}
+
+,
+{
+    "slug" : "Floral", "path": ["@Permiter@"], "name": "Floral", "belongsTo": "DEPARTMENT"
+}
+,
+{
+    "slug" : "Housewares", "path": ["@Permiter@GM@"], "name": "Housewares", "belongsTo": "CATEGORY"
+}
+
+,
+{
+    "slug" : "Audio_Video", "path": ["@Center@GM@"], "name": "Audio_Video", "belongsTo": "CATEGORY"
+}
+
+,
+{
+    "slug" : "Frozen_Shellfish", "path": ["@Permiter@Seafood@"], "name": "Frozen Shellfish", "belongsTo": "CATEGORY"
+}
+
+,
+{
+    "slug" : "Crackers", "path": ["@Center@Grocery@"], "name": "Crackers", "belongsTo": "CATEGORY"
+}
+
+,
+{
+    "slug" : "Frozen_Bake", "path": ["@Center@Frozen@"], "name": "Frozen Bake", "belongsTo": "CATEGORY"
+}
+
+,
+{
+    "slug" : "Bakery_Bread", "path": ["@Permiter@Bakery@"], "name": "Bakery Bread", "belongsTo": "CATEGORY"
+}
+
+,
+{
+    "slug" : "Self_Service_Deli_Cold", "path": ["@Permiter@DeliÊandÊFoodservice@"], "name": "Self Service Deli Cold", "belongsTo": "CATEGORY"
+}
+
+,
+{
+    "slug" : "Service_Deli", "path": ["@Permiter@DeliÊandÊFoodservice@"], "name": "Service Deli", "belongsTo": "CATEGORY"
+}
+
+,
+{
+    "slug" : "BouquetsÊandÊCut_Flowers", "path": ["@Permiter@Floral@"], "name": "BouquetsÊandÊCut Flowers", "belongsTo": "CATEGORY"
+}
+
+,
+{
+    "slug" : "Other_Seafood", "path": ["@Permiter@Seafood@"], "name": "Other Seafood", "belongsTo": "CATEGORY"
+}
+]

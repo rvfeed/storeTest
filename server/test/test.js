@@ -21,13 +21,5 @@ describe("Hello World Server", function() {
         done();
       });
     });
-       it("returns readAllPosts", function(done) {
-      request.get(base_url+"readAllPosts", function(error, response, body) {
-        //expect(body).toBe("Hello World");
-        assert.equal("welcome Home!", body);
-     //   helloWorld.closeServer();
-        done();
-      });
-    });
   });
 });
