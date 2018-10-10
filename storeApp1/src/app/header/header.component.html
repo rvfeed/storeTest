@@ -1,0 +1,53 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="margin:24px 0;">
+    <a class="navbar-brand" href="javascript:void(0)"><ng-content selected="title"></ng-content></a>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navb">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navb">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" *ngIf="loggedIn" routerLink="home" routerLinkActive="active" href="javascript:void(0)">Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" routerLink="stock" routerLinkActive="active" href="javascript:void(0)">Stock</a>
+          </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="users" routerLinkActive="active" href="javascript:void(0)">Users</a>
+       
+        </li>
+       <!--  <li class="nav-item">
+          <a class="nav-link" routerLink="blog" routerLinkActive="active" href="javascript:void(0)">Blog</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" *ngIf="loggedIn" routerLink="users"
+             routerLinkActive="active" href="javascript:void(0)">Users</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link" *ngIf="loggedIn" routerLink="file-upload"
+             routerLinkActive="active" href="javascript:void(0)">File Upload</a>
+        </li>
+           <li class="nav-item"> 
+            <a class="nav-link" routerLink="lazy" routerLinkActive="active" href="javascript:void(0)">Lazy</a>
+          </li>
+          <li class="nav-item"> 
+            <a class="nav-link" routerLink="acl" routerLinkActive="active" href="javascript:void(0)">Admin</a>
+          </li>
+          <li class="nav-item"> 
+            <a class="nav-link" routerLink="post" routerLinkActive="active" href="javascript:void(0)">Post</a>
+          </li> -->
+        <li class="nav-item"> 
+            <a class="nav-link" *ngIf="!loggedIn" routerLink="login" routerLinkActive="active" href="javascript:void(0)">Login</a>
+          </li>
+       
+        <li class="nav-item">
+            <a class="nav-link" *ngIf="loggedIn" on-click="logout()" >logout</a>
+          </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0" [formGroup]="searchForm">
+        <input class="form-control mr-sm-2" type="text" 
+        formControlName="searchText" name="searchMov"  placeholder="Search">
+        <button class="btn btn-success my-2 my-sm-0" on-click="searchMovie()" type="button">Search</button>
+      </form>
+    </div>
+  </nav>
